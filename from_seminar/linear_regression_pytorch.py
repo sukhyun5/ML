@@ -9,7 +9,7 @@ torch.manual_seed(3)
 
 
 x_train = torch.Tensor([[1],[2],[3]])
-y_train = torch.Tensor([[8],[9],[10]])
+y_train = torch.Tensor([[1],[2],[3]])
 
 # define : y = W*x + b 
 model = nn.Linear(1, 1, bias=True)
